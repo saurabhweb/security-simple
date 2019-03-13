@@ -1,0 +1,13 @@
+server:
+   port: 8181
+   
+logging:
+   level:
+      # Change this to DEBUG to get everything including tomcat and other logs
+      root: WARN
+      org.springframework.web: DEBUG
+      org.springframework.security: DEBUG
+
+spring:
+   thymeleaf:
+      cache: false
